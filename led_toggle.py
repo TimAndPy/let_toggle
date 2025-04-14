@@ -2,8 +2,8 @@ import Jetson.GPIO as GPIO
 import keyboard
 import time
 
-# Stel de GPIO-pin in (D2 komt overeen met fysieke pin 31 op de Jetson Nano)
-LED_PIN = 31  # Fysieke pin 31 is D2 op het Waveshare-bord
+# Stel de GPIO-pin in (D13 komt overeen met fysieke pin 13 op de Jetson Nano)
+LED_PIN = 13  # Fysieke pin 13 is D2 op het Waveshare-bord
 
 # GPIO initialiseren
 GPIO.setmode(GPIO.BOARD)  # Gebruik BOARD-nummering (pin-nummers op het Waveshare-bord)
